@@ -4,41 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TBM/Nuestros Productos</title>
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
-<body style="background-image: url(../img/web_ourProducts.png); background-repeat: no-repeat; 
-        background-size: cover; background-position: initial; background-attachment: fixed;">
-    <header style="padding: 20px;">
-        <h1 style="text-align: center; width: 100%; font-size: 45px;">
+<body id="page3">
+    <header class="encabezados">
+        <h1 class="titlePages">
             NUESTROS PRODUCTOS
         </h1>
         <nav>
-            <table border="2" style="text-align: center; padding: 10px; border-spacing: 5px; width: 100%; border-radius: 2px; border-color: cornflowerblue; background-color: khaki;">
-                <th style="padding: 20px; background-color: darkblue;"><a href="index.html" style="color: gainsboro;">Home</a></th>
-                <th style="padding: 20px; background-color: darkblue;"><a href="whoarewe.html"  style="color: gainsboro;">Quienes Somos</a></th>                
-                <th style="padding: 20px; background-color: darkblue;"><a href="ourproducts.html"  style="color: gainsboro;">Nuestros Productos</a></th>
-                <th style="padding: 20px; background-color: darkblue;"><a href="contact.html"  style="color: gainsboro;">Contáctanos</a> </th>
-                <th style="padding: 20px; background-color: darkblue;"><a href="clients.html"  style="color: gainsboro;">Clientes Satisfechos</a> </th>
+            <table class = "mainMenu" border="5px">
+                <th class="celdas"><a class="linkMenu" href="index.html">Home</a></th>
+                <th class="celdas"><a class="linkMenu" href="whoarewe.html">Quienes Somos</a></th>                
+                <th class="celdas"><a class="linkMenu" href="ourproducts.html">Nuestros Productos</a></th>
+                <th class="celdas"><a class="linkMenu" href="contact.html">Contáctanos</a> </th>
+                <th class="celdas"><a class="linkMenu" href="clients.html">Clientes Satisfechos</a> </th>
             </table>
         </nav>
 
     </header>
-    <div style="width: 100%; height: 100%; display: flex;">
-        <aside style="padding: 60px; width: 55%; text-align: center;">
-            <h3>
-                Algunos de nuestros productos son diseños originales creados por nosotros, 
+
+    <hr class="lines">
+    
+    <div id="divPage3">
+        <aside id="asideLeft">
+            <p class="parrPage2_left">
+                Algunos de nuestros productos son diseños originales creados por nuestro talento, 
                 otros son personalizados de acuerdo a las imágenes que el cliente desea estampar
                 en su cuadro. <br><br><br>
                 Nuestros precios los podrás encontrar en la siguiente tabla: <br><br><br>
-            </h3>
+            </p>
 
-            <table border="3", style="padding: 10px; border-color: rgba(48, 205, 0, 0.712);">
+            <table id="tablaPrecios" border="3">
                 <tr>
-                    <th colspan="3" style="padding: 5px; background-color: #0c0c0c; color: mistyrose;">Tabla de Precios</th>
+                    <th id="titleTable" colspan="3">Tabla de Precios</th>
                 </tr>
-                <tr style="background-color: #0B3B0B; color: rgb(81, 238, 81);">
-                    <th style="padding: 15px;">Dimensiones (cm)</th>
-                    <th style="padding: 15px;">Precio Unitario (COP)</th>
-                    <th style="padding: 15px;">Cantidad Mínima de Venta (unidad)</th>
+                <tr id="subTitleTable">
+                    <th class="subTitleTable2">Dimensiones (cm)</th>
+                    <th class="subTitleTable2">Precio Unitario (COP)</th>
+                    <th class="subTitleTable2">Cantidad Mínima de Venta (unidad)</th>
                 </tr>
                 <tr>
                     <td> 40 x 50 </td>
@@ -63,20 +66,26 @@
 
                 
             </table>
-
+            
         </aside>
-        <div style="padding: 25px; text-align: center;">
-            <img src="../img/web1.png" alt="prod_1" width="70%">
-            <img src="../img/web2.png" alt="prod_2" width="70%">
-            <img src="../img/web3.png" alt="prod_3" width="70%">
+
+        <div class="imageLeft">
+            <img src="../img/web3.png" alt="prod_3" width="100%">
+            <img src="../img/web6.png" alt="prod_3" width="100%">
+        </div>
+
+        <div class="imageLeft">
+            <img src="../img/web1.png" alt="prod_1" width="100%">
+            <img src="../img/web2.png" alt="prod_2" width="100%">
+            
         </div>
     </div>
 
-    <footer>
-        <div style="background-color: rgba(11, 34, 58, 0.842);">
-            <table style="text-align: center; padding: 10px; border-spacing: 5px; width: 100%;">
-                <th style="padding: 20px; font-size: 12px; font-family: cursive; color: wheat">Instagram: @bigmystery_</th>
-                <th style="padding: 20px; font-size: 12px; font-family: cursive; color: wheat">Email: bigmysteryof@gmail.com</th>
+    <footer class="footer">
+        <div class="divFooter">
+            <table class="tbFooter">
+                <th class="celdaFooter">Instagram: @bigmystery_</th>
+                <th class="celdaFooter">Email: bigmysteryof@gmail.com</th>
             </table>
         </div>
     </footer>
