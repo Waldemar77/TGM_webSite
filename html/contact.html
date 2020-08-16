@@ -24,28 +24,91 @@
 
     <hr class="lines">
 
-    <div style="display: flex; flex-direction: row;">
-        <div style="width: 35%; padding: 10px;">
-            <h3 style="padding-top: 25px; text-align: center; font-size: 20px; font-style: italic;">
-                Si tienes curiosidad de conocer nuestras instalaciones, puedes acercarte a la siguiente dirección:
+    <div id="divPage4">
+        <div id="divForm">
+            <h3 id="titleForm">
+                Envía tus datos para tener una cita personalizada:
             </h3>
+            <form action="" method="POST">
+                <label class="label" for="name">Nombre: </label>
+                <input class="input" type="text" id="name" placeholder="Escribe tu nombre aquí" required>
+                <br>
+                <label class="label" for="email">Email: </label>
+                <input class="input" type="email" id="email" required placeholder="Ingresa tu email aquí">
+                <br>
+                <label class="label" for="phoneNum">Número de Contacto: </label>
+                <input class="input" type="text" id="phoneNum" placeholder="Escribe tu número aquí" required>
+                <br>
+                <label class="input" for="sex">Sexo: </label>
+                <input class="input" type="radio" id="sex" name="sex">M
+                <input class="input" type="radio" id="sex" name="sex">F
+                <input class="input" type="radio" id="sex" name="sex">Otro
+                <br>
+                <label class="label" for="birthday">Fecha de Nacimiento: </label>
+                <input class="input" type="date" id="birthday" required>
+                <br>
+                <label class="label" for="country">País de Origen: </label>
+                <select class="label" for="country"> 
+                    <option value="">Colombia</option>
+                    <option value="">México</option>
+                    <option value="">Ecuador</option>
+                    <option value="">Perú</option>
+                    <option value="">Venezuela</option>
+                    <option value="">Chile</option>
+                    <option value="">Argentina</option>
+                    <option value="">Bolivia</option>
+                </select>
+                <br>
+                <label class="label" for="color">Color Favorito: </label>
+                <input class="input" type="color" id="color" >
+                <br>
+                <br>
+                <label class="label" for="study">Nivel de Estudio: </label> <br>
+                <input type="checkbox" id="study" >Sin estudio. <br>
+                <input type="checkbox" id="study" >Primarios. <br>
+                <input type="checkbox" id="study" >Secundarios. <br>
+                <input type="checkbox" id="study" >Técnicos. <br>
+                <input type="checkbox" id="study" >Tecnológicos. <br>
+                <input type="checkbox" id="study" >Profesionales. <br>
+                <input type="checkbox" id="study" >Especialización. <br>
+                <input type="checkbox" id="study" >Maestría. <br>
                 
-            <h1 style="text-align: center;">
-                CRA 19 No. 168 - 98 BARRIO TOBERÍN - BOGOTÁ. <br> Tel. 725 4224 <br> Cel. 322 370 9173
-            </h1>
+                <label class="label" for="hora">Hora de disponibilidad: </label>
+                <input class="input" type="time" id="hora" >
+                <br>
+                <label class="label" for="adjuntar">Adjuntar archivo: </label>
+                <input class="input"type="file" id="adjuntar" >
+                <br>
+                <label class="label" for="limpiar"></label>
+                <input class="input"type="reset" id="limpiar" >
+                
+                <label class="label" for="enviar"></label>
+                <input class="input" type="submit" id="enviar" >
+            </form>
         </div>
 
-        <div style="padding-left: 20px; width: 60%;">
-            <img src="../img/web_maps.png" alt="mapa_ubicacion_fab" width="100%">
+        <div>
+            <p id="titleDirection">
+                Si tienes curiosidad de conocer nuestras instalaciones, puedes acercarte a la siguiente dirección:
+            </p>    
+            <h3 id="titleDirection">
+                CRA 19 No. 168 - 98 BARRIO TOBERÍN - BOGOTÁ. <br> Tel. 725 4224 <br> Cel. 322 370 9173
+            </h3>
+
+            <hr class="lines"> 
+
+            <div id="mapa">
+                <img src="../img/web_maps.png" alt="mapa_ubicacion_fab" width="100%">
+            </div>
         </div>
 
     </div>
 
-    <footer>
-        <div style="background-color: rgba(11, 34, 58, 0.842);">
-            <table style="text-align: center; padding: 10px; border-spacing: 5px; width: 100%;">
-                <th style="padding: 20px; font-size: 12px; font-family: cursive; color: wheat">Instagram: @bigmystery_</th>
-                <th style="padding: 20px; font-size: 12px; font-family: cursive; color: wheat">Email: bigmysteryof@gmail.com</th>
+    <footer class="footer">
+        <div class="divFooter">
+            <table class="tbFooter">
+                <th class="celdaFooter">Instagram: @bigmystery_</th>
+                <th class="celdaFooter">Email: bigmysteryof@gmail.com</th>
             </table>
         </div>
     </footer>
