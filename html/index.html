@@ -11,61 +11,84 @@
 </head>
 
 <body class="mainPage">
-    <header class="encabezados">
-        <div id="mainHeader_p1">
-            <h1 id="mainNameSite_p1">
-                THE BIG MYSTERY
-            </h1>
-        </div>
-
-        <nav id="menu_p1">
-            <table class="mainMenu" border="5px">
-                <th class="celdas"><a class="linkMenu" href="index.html">Home</a></th>
-                <th class="celdas"><a class="linkMenu" href="whoarewe.html">Quienes Somos</a></th>
-                <th class="celdas"><a class="linkMenu" href="ourproducts.html">Nuestros Productos</a></th>
-                <th class="celdas"><a class="linkMenu" href="contact.html">Contáctanos</a> </th>
-                <th class="celdas"><a class="linkMenu" href="clients.html">Clientes Satisfechos</a> </th>
-            </table>
-        </nav>
-    </header>
+	<h1 id="mainTitle">
+		THE BIG MYSTERY <br>
+	</h1>
+	
+	<nav id="menu_p1">
+		
+		<ul class="columnas">
+			<li class="listas">
+				<a class="linkMenu" href="index.html">Home</a>
+			</li>
+			<li class="listas">
+				<a class="linkMenu" href="whoarewe.html">Quienes Somos</a>
+			</li>
+			<li class="listas">
+				<a class="linkMenu" href="ourproducts.html">Nuestros Productos</a>
+			</li>
+			<li class="listas">
+				<a class="linkMenu" href="contact.html">Contáctanos</a>
+			</li>
+			<li class="listas">
+				<a class="linkMenu" href="clients.html">Clientes Satisfechos</a>
+			</li>
+		</ul>		
+	
+    </nav>
 
     <hr class="lines">
 
     <div id="bgFirstContent">
         <h2 id="firstContent_p1">
-            Siempre que miras una pared en blanco...<br> ¿has pensado en la imagen perfecta para decorarla? <br>
+            Siempre que miras una pared en blanco...<br> ¿has pensado en la imagen perfecta para decorarla?
         </h2>
     </div>
 
     <div id="leftBox_p1">
-        <div id="secondBox_p1">
-            <div>
-                <p id="parrLeftAudio">
-                    Pensando en ayudarte a solucionar la anterior pregunta, Tatiana, una de las hermanas que impulsa
-                    este emprendimiento, nos deja un saludo y una invitación a conocer un poco más sobre <b>The Big
-                        Mystery</b>:
-                </p>
-
-                <audio id="audio" src="../img/web_invitacion_tatiana.mpeg" controls></audio>
+        <div>
+            <p class="parrafoBody">
+                Pensando en ayudarte a solucionar la anterior pregunta, Tatiana, una de las hermanas que impulsa
+                este emprendimiento, nos deja un saludo y una invitación a conocer un poco más sobre <b>The Big
+                    Mystery</b>:
+            </p>
+			<div id="audioStyle">
+            	<audio id="audio" src="../img/web_invitacion_tatiana.mpeg" controls style="width: 170px"></audio>
             </div>
         </div>
+        
         <div id="rightBox_p1">
+        
+        	<p class="parrafoBody">
+        	Si quieres saber más sobre el proceso de elaboración de nuestros cuadros, revisa el siguiente video, donde podrás observar cómo se imprimen los diseños.
+        	</p>
+    	</div>
+    	
+    	<div id="videoStyle">
+        	<video controls style="padding-top: 15px;">
+            	<source src="../img/web_manofactura.mp4" type="video/mp4">
+        	</video>
+	    </div>
 
-            <p id="parrRightVideo_p1">
-                Aquí un pequeño video de cómo es la fabricación de nuestros cuadros...
-            </p>
-            <video controls style="padding-top: 15px;">
-                <source src="../img/web_manofactura.mp4" type="video/mp4">
-            </video>
-        </div>
-    </div>
+    </div>        
 
     <footer class="footer">
-        <div class="divFooter">
-            <table class="tbFooter">
-                <th class="celdaFooter">Instagram: @bigmystery_</th>
-                <th class="celdaFooter">Email: bigmysteryof@gmail.com</th>
-            </table>
+        <div class="footerDiv">
+        	<ul class="listF">
+        		<li class="listaFooter ">
+        			Instagram: @bigmystery_
+        		</li>
+        		<li class="listaFooter ">
+        			Email: bigmysteryof@gmail.com
+        		</li>
+        		<li class="listaFooter ">
+        			Tel. 322 216 6420
+        		</li>
+        		<li class="listaFooter ">
+        			Todos los derechos Reservados
+        		</li>
+        		
+        	</ul>
         </div>
     </footer>
 
